@@ -1,19 +1,23 @@
 {
-  "name": "hexlet",
+  "name": "hexlet-learning",
   "version": "1.0.0",
+  "type": "module",
   "description": "Мой первый проект на Хекслете",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/Mogido/hexlet-js.git"
   },
-  "author": "",
+  "author": "Maksim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mogido/hexlet-js/issues"
   },
-  "homepage": "https://github.com/Mogido/hexlet-js#readme"
+  "homepage": "https://github.com/Mogido/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
